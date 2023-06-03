@@ -5,7 +5,7 @@ import Category from "../Category/Category";
 import PopulerMenu from "../PopulerMenu/PopulerMenu";
 import Featured from "../Featured/Featured";
 import Testimonial from "../Testimonial/Testimonial";
-import OfferedMenu from "../OfferedMenu/OfferedMenu";
+import FoodCard from "../FoodCard/FoodCard";
 import MiddleBanner from "../MiddleBanner/MiddleBanner";
 import { Helmet } from "react-helmet-async";
 
@@ -20,7 +20,7 @@ const Home = () => {
       <Category />
       <MiddleBanner/>
       <PopulerMenu />
-      <OfferedMenu/>
+      <FoodCard/>
       <Featured />
       <Testimonial />
       
