@@ -14,7 +14,7 @@ const FoodCard = () => {
             <div className=" grid gap-6 md:grid-cols-3 w-9/12 mx-auto pt-10">
                 {
                     offered.map((item) => (
-                        <FoodItem key={item.id} item={item}></FoodItem>
+                        <FoodItem key={item._id} item={item}></FoodItem>
                     ))
                 }
             </div>
